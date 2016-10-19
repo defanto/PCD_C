@@ -10,4 +10,5 @@ function [hasilSobel] = operatorsobel(gambar);
       hasilSobel(i,j)=sqrt(Gx.^2+Gy.^2);
     end  
   end
+  hasilSobel=uint8(hasilSobel);
 endfunction
